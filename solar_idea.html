@@ -18,7 +18,14 @@
             <h2>▷ <a href="solar_fix.html">보완점</a></h2>
             <h2>▷ <a href="solar_idea.html">아이디어</a></h2>
             <ul id="s_heading">
-                <li>날개 + 날개</li>
+                <script>  
+                    var coworkers = ['날개 + 날개', '솔라패널 글라이더', '틸트로터']
+                    var i = 0;
+                    while (i < coworkers.length) {
+                    document.write('<li>' + coworkers[i] + '</li>')
+                    i += 1
+                }
+                </script>
             </ul>
         </div>
     </div>
@@ -27,12 +34,42 @@
         <p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/mK0yCu39Zrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br><br>△ 날개 + 날개로 부피 최소화
+            <br><span id="result">
+                <br>&lt;장점&gt;
+                <br>가벼움
+                <br><br>&lt;단점&gt;
+                <br>날개 방향조절 불가능
+            </span>
+        </p>
+        <hr class="one">
+        <h3>○ 솔라패널 글라이더</h3>
+        <p>
+            <iframe src="https://player.vimeo.com/video/92499008" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <br><br>△ 솔라패널 글라이더 (Sunseeker)
+            <br><span id="result">
+                <br>&lt;장점&gt;
+                <br>저동력 비행, 유지보수 쉬움, 날개 탈부착
+                <br><br>&lt;단점&gt;
+                <br>활주로 필요
+            </span>
+        </p>
+        <hr class="one">
+        <h3>○ 틸트로터(Tiltrotor)</h3>
+        <p>
+        <img src="https://ww.namu.la/s/930a460df4aba96891ead2827132eb270154db4ba5af7149f93ea0074285f649c370cd6220929230c9e8a9f801671ca44099e60883bd6eb6bae30cac615372da45ee6065213c88f57563f6dce0c3d96a6ae7e2fdafbf03cf323149a5d5920bd9">
+        <br><br>△ 틸트로터 비행기
+        <br><span id="result">
+            <br>&lt;장점&gt;
+            <br>수평, 수직 비행 가능
+            <br><br>&lt;단점&gt;
+            <br>설계 복잡
+        </span>
         </p>
         <hr class="one">
 
 
     </div>
 </div>
-        
+<script src="SolarCharger.js"></script>
 </body>
 </html>
