@@ -17,9 +17,14 @@
             <h2>▷ <a href="solar_opp.html">사용 목적</a></h2>
             <h2>▷ <a href="solar_fix.html">보완점</a></h2>
             <ul id="s_heading">
-                <li>날개 저항</li>
-                <li>기상상태 의존</li>
-                <li>효율성</li>
+                <script>  
+                    var coworkers = ['날개 저항', '기상상태 의존', '효율성']
+                    var i = 0;
+                    while (i < coworkers.length) {
+                    document.write('<li>' + coworkers[i] + '</li>')
+                    i += 1
+                }
+                </script>
             </ul>
             <h2>▷ <a href="solar_idea.html">아이디어</a></h2>
         </div>
@@ -33,13 +38,11 @@
             <br><img src="http://i.imgur.com/EpnR3i7.gif">
             <br>Ex2. 롤러블
             <br><img src="https://thumbs.gfycat.com/OblongNimbleDassierat-size_restricted.gif">
-        
         </p>
         <hr class="one">
-        <h3>○ 기상상태 의존</h3> 
+        <h3><s>○ 기상상태 의존</s></h3> 
         <p>
-            기상이 나쁘면 비행 불가능(날개 면적 큼)
-            <br>=> 날개 탈부착? 접어서 비행?
+            => 일반 비행기들도 기상 상태 나쁘면 운행하지 않음
         </p>
         <hr class="one">
         <h3>○ 효율성</h3> 
@@ -47,7 +50,8 @@
             무거운 날개로 인해 낮은 곳에서 높은 곳으로 이동 할때 효율↓
             <br>=> 높은 곳에서 내려갈 때 효율로 커버 가능?
         </p>
-        <hr class="one">
+        <br><hr class="one">
+
         <br><br><div id="disqus_thread"></div>
     <script>
         (function() {
