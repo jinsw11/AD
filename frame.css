@@ -1,5 +1,6 @@
 body {
     /* 블럭 */
+    min-width: 1000px;
     margin: 0;
     background-color: whitesmoke;
     /* 텍스트 */
@@ -64,8 +65,8 @@ summary {
 }
 #section {
     /* 그리드 */
-    display: block;
-    min-width: 1000px;
+    display: grid;
+    min-width: 200px;
     /* 블럭 */
     border-left: 1px solid rgba(0, 0, 0, 0.637);
     padding: 30px;
