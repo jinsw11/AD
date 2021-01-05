@@ -48,7 +48,7 @@ hr {
 }
 #grid {
     display: grid;
-    grid-template-columns: 200px 0 1fr;
+    grid-template-columns: 200px 1fr;
 }
 #floating {
     width: 200px;
