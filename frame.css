@@ -65,7 +65,7 @@ summary {
 #section {
     /* 그리드 */
     display: grid;
-    //min-width: 500px;
+    /*min-width: 500px;*/
     /* 블럭 */
     border-left: 1px solid rgba(0, 0, 0, 0.637);
     padding: 30px;
@@ -73,7 +73,7 @@ summary {
     font-size: 40px;
     font-family: 'paybooc-Bold', sans-serif;
     font-weight: 400; /* 이랜드 초이스 */
-    text-align: left center;
+    text-align: center;
 }
 #article {
     /* 블럭 */
