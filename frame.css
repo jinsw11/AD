@@ -23,6 +23,7 @@ summary {
     grid-template-columns: 200px 1fr;
 }
 #block {
+    display: grid;
     min-width: 200px;
     background-color: rgb(235, 235, 235);
 }
