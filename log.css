@@ -1,0 +1,143 @@
+body {
+    /* 블럭 */
+    margin: 0;
+    background-color: whitesmoke;
+    /* 텍스트 */
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: navy;
+}
+img {
+    width: 560px;
+}
+summary {
+    /* 블럭 */
+    padding-top: 10px;
+    /* 텍스트 */
+    color: midnightblue;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+#block {
+    display: grid;
+    min-width: 200px;
+    background-color: rgb(235, 235, 235);
+}
+#header h1{
+    /* 그리드 */
+    margin: 0;
+    padding: 15px;
+    /* 블럭 */
+    border-bottom: 2px solid #1e85ca;
+    background-color: #56a0d3;
+    /* 텍스트 */
+    color: whitesmoke;
+    text-align: center;
+}
+#nav {
+    /* 그리드 */
+    display: grid;
+    max-width: 200px;
+    position: fixed;
+    /* 블럭 */
+    padding-left: 20px;
+    background-color: rgb(235, 235, 235);
+    /* 텍스트 */
+    font-size: larger;
+    color: #333;
+}
+#nav h2 {
+    /* 블럭 */
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    /* 텍스트 */
+    text-align: center;
+}
+#nav ul {
+    /* 블럭 */
+    padding-left: 25px;
+    /* 텍스트 */
+    font-family: 'paybooc-Bold', sans-serif;
+    font-weight: 400; /* 이랜드 초이스 */
+}
+#section {
+    /* 블럭 */
+    border-left: 1px solid rgba(0, 0, 0, 0.637);
+    padding: 30px;
+    /* 텍스트 */
+    font-size: 40px;
+    font-family: 'paybooc-Bold', sans-serif;
+    font-weight: 400; /* 이랜드 초이스 */
+    text-align: left center;
+}
+#article {
+    /* 블럭 */
+    border-top: 2px solid rgba(0, 0, 0, 0.158);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* 텍스트 */
+    font-size: 22px;
+    font-family: 'paybooc-Bold', sans-serif;
+    font-weight: 200; /* 이랜드 초이스 */
+}
+#article h2 {
+    /* 그리드 */
+    display: inline;
+    /* 텍스트 */
+    font-size: 25px;
+    font-family: 'paybooc-Bold', sans-serif;
+    font-weight: 400; /* 이랜드 초이스 */
+}
+#dtl {
+    padding-left: 30px;
+    line-height: 30px;
+}
+#dtl span {
+    font-size: 24px;
+    font-family: 'paybooc-ExtraBold', sans-serif;
+    font-weight: 400; /* 이랜드 초이스 */
+    color: #222;
+}
+#footer {
+    /* 블럭 */
+    padding-top: 8px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.637);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.637);
+    background-color:  rgb(235, 235, 235);
+    /* 텍스트 */
+    text-align: center;
+}
+@font-face {
+    /* 나눔고딕 스퀘어 */
+    font-family: NanumSquareWeb;
+    src: url(NanumSquareR.woff) format('woff');
+}
+@font-face {
+    /* 이랜드 초이스 M */
+    font-family: 'ELAND_Choice_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    /* 페이북 B */
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    /* 페이북 EB */
+    font-family: 'paybooc-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
