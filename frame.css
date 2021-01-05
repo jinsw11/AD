@@ -64,7 +64,7 @@ summary {
 }
 #section {
     /* 그리드 */
-    display: grid;
+    display: block;
     min-width: 1000px;
     /* 블럭 */
     border-left: 1px solid rgba(0, 0, 0, 0.637);
